@@ -10,12 +10,6 @@ A standalone spreadsheet for the web, easily integrable and extendable.
 
 ![o-spreadsheet screenshot](doc/o-spreadsheet.png "o-spreadsheet demo")
 
-<!--
-
-- use with other UI library
-- use with Typescript
-  -->
-
 ## Run it!
 
 ```bash
