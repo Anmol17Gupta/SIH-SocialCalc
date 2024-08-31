@@ -1,10 +1,5 @@
-# o-spreadsheet
-
-[![npm](https://img.shields.io/npm/v/@odoo/o-spreadsheet)](https://www.npmjs.com/package/@odoo/o-spreadsheet)
-
+# SIH-SocialCalc
 A standalone spreadsheet for the web, easily integrable and extendable.
-
-a.k.a. "[Owly](https://github.com/odoo/owl) Sheet" 🦉
 
 - All basic features you can expect from a spreadsheet
 - Real time collaboration
@@ -28,20 +23,6 @@ a.k.a. "[Owly](https://github.com/odoo/owl) Sheet" 🦉
 - use with Typescript
   -->
 
-## Extending the functionalities of o-spreadsheet
-
-1. [Architecture](doc/extending/architecture.md)
-2. [Custom function](doc/add_function.md)
-3. [Connecting to an external API](doc/add_function.md#connecting-to-an-external-api)
-4. [Business feature](doc/extending/business_feature.md)
-5. Menu items (under construction)
-6. Side panel (under construction)
-7. Notification (under construction)
-8. Export Excel (under construction)
-9. [Terminology](doc/o-spreadsheet_terminology.png)
-10. [Translations](doc/extending/translations.md)
-11. [API](doc/tsdoc/README.md)
-
 ## Run it!
 
 ```bash
@@ -61,10 +42,3 @@ npm run test -- --watch
 # build documentation
 npm run doc
 ```
-
-## Contributing
-
-- Open a pull request or an issue on this repository.
-- Make sure you have [signed the CLA](https://github.com/odoo/odoo/blob/16.0/doc/cla/sign-cla.md) on [odoo repository](https://github.com/odoo/odoo).
-
-Most of [odoo contribution guidelines](https://github.com/odoo/odoo/wiki/Contributing#making-pull-requests) apply here.
