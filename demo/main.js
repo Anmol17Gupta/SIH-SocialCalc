@@ -1,3 +1,4 @@
+
 // Don't remove unused import
 // organize-imports-ignore
 // import { demoData, makeLargeDataset } from "./data.js";
@@ -5,6 +6,13 @@
 // import { currenciesData } from "./currencies.js";
 import { WebsocketTransport } from "./transport.js";
 import { FileStore } from "./file_store.js";
+
+
+// Redirect to login page if not logged in
+if (!localStorage.getItem("loggedIn")) {
+  window.location.href = "login.html";
+}
+
 
 const {
   xml,
