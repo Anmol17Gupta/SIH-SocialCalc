@@ -110,42 +110,6 @@ class Demo extends Component {
       sequence: 1000,
     });
 
-    topbarMenuRegistry.add("notify", {
-      name: "Dummy notifications",
-      sequence: 1000,
-      isReadonlyAllowed: true,
-    });
-
-    topbarMenuRegistry.addChild("fake_notify_sticky", ["notify"], {
-      name: "fake notify (sticky)",
-      sequence: 13,
-      isReadonlyAllowed: true,
-      execute: () =>
-        this.notifyUser({
-          text: "I'm a sticky notification ! You want me to leave ? COME FIGHT WITH ME !!!",
-          sticky: true,
-          type: "warning",
-        }),
-    });
-
-    topbarMenuRegistry.addChild("fake_notify_no_sticky", ["notify"], {
-      name: "fake notify (no sticky)",
-      sequence: 14,
-      isReadonlyAllowed: true,
-      execute: () =>
-        this.notifyUser({
-          text: "I'm not a sticky notification, Just a simple notification. So... CiaoByeBye, see you in another universe...",
-          sticky: false,
-          type: "warning",
-        }),
-    });
-
-    topbarMenuRegistry.addChild("throw error", ["notify"], {
-      name: "Uncaught error",
-      sequence: 11,
-      execute: () => a / 0,
-    });
-
     topbarMenuRegistry.addChild("xlsxImport", ["file"], {
       name: "Import XLSX",
       sequence: 25,
