@@ -15,7 +15,11 @@ npm install
 # build o_spreadsheet.js in dist/
 npm run build
 
+
 # build stuff, start a live server, start a collaborative server, build with --watch
 npm run dev
+
+
+
 
 
