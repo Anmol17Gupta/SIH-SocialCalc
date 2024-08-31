@@ -24,7 +24,7 @@
       />
     </svg>
   </t>
-  <t t-name="o-spreadsheet-Icon.OPEN_DASHBOARD">
+  <t t-name="o-spreadsheet-Icon">
     <svg class="o-icon">
       <path
         fill="currentColor"

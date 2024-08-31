@@ -2,11 +2,10 @@
   <t t-name="o-spreadsheet-Spreadsheet">
     <div
       class="o-spreadsheet"
-      t-on-keydown="(ev) => !env.isDashboard() and this.onKeydown(ev)"
+      t-on-keydown="(ev) => this.onKeydown(ev)"
       t-ref="spreadsheet"
       t-att-style="getStyle()">
-      <t t-if="env.isDashboard()">
-        <SpreadsheetDashboard/>
+      <t t-if="false">
       </t>
       <t t-else="">
         <TopBar onClick="() => this.focusGrid()" dropdownMaxHeight="gridHeight"/>
