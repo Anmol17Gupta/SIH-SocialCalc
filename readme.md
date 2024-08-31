@@ -6,8 +6,6 @@ A standalone spreadsheet for the web, easily integrable and extendable.
 - Import/Export of excel file format
 - and more...
 
-**Try it online** with the [live demo](https://odoo.github.io/o-spreadsheet/)!
-
 ## Local Installation
 
 ```bash
