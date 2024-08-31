@@ -8,7 +8,7 @@ A standalone spreadsheet for the web, easily integrable and extendable.
 
 **Try it online** with the [live demo](https://odoo.github.io/o-spreadsheet/)!
 
-## Run it!
+## Local Installation
 
 ```bash
 # install dependencies
