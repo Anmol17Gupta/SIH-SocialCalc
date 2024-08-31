@@ -23,7 +23,4 @@ npm run dev
 # run the test suite
 npm run test
 npm run test -- --watch
-
-# build documentation
-npm run doc
 ```
