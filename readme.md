@@ -10,13 +10,6 @@ A standalone spreadsheet for the web, easily integrable and extendable.
 
 ![o-spreadsheet screenshot](doc/o-spreadsheet.png "o-spreadsheet demo")
 
-## Integrating o-spreadsheet
-
-1. [Getting started](doc/integrating/integration.md#getting-started)
-2. [Spreadsheet component props](doc/integrating/integration.md#spreadsheet-component-props)
-3. [Model creation](doc/integrating/integration.md#model-creation)
-4. [Collaborative edition](doc/integrating/integration.md#collaborative-edition)
-5. [Translation](doc/integrating/integration.md#translation)
 <!--
 
 - use with other UI library
