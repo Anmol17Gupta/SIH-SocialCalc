@@ -1,0 +1,43 @@
+<templates>
+  <t t-name="o-spreadsheet-TableStyleEditorPanel">
+    <div class="o-table-style-editor-panel">
+      <Section>
+        <t t-set-slot="title">Style name</t>
+        <input type="text" class="o-input o-optional" t-model="state.styleName"/>
+      </Section>
+      <Section class="'pt-1'">
+        <t t-set-slot="title">Style color</t>
+        <div class="d-flex align-items-center">
+          <span class="pe-2">Primary table style color</span>
+          <RoundColorPicker currentColor="state.primaryColor" onColorPicked.bind="onColorPicked"/>
+        </div>
+      </Section>
+      <Section class="'pt-1'">
+        <t t-set-slot="title">Style template</t>
+        <div class="d-flex flex-wrap">
+          <t t-foreach="tableTemplates" t-as="templateName" t-key="templateName">
+            <TableStylePreview
+              class="'o-table-style-edit-template-preview'"
+              selected="templateName === state.selectedTemplateName"
+              tableConfig="previewTableConfig"
+              tableStyle="computeTableStyle(templateName)"
+              onClick="() => this.onTemplatePicked(templateName)"
+            />
+          </t>
+        </div>
+        <div class="o-sidePanelButtons">
+          <button
+            t-if="props.styleId"
+            t-on-click="onDelete"
+            class="o-delete o-button o-button-grey danger">
+            Delete
+          </button>
+          <button t-on-click="onCancel" class="o-cancel o-button o-button-grey">Cancel</button>
+          <button t-on-click="onConfirm" class="o-confirm o-button o-button-grey primary">
+            Confirm
+          </button>
+        </div>
+      </Section>
+    </div>
+  </t>
+</templates>

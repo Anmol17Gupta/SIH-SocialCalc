@@ -1,0 +1,1818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Linear/Time charts font color is white with a dark background color 1`] = `
+{
+  "background": "#010101",
+  "chartJsConfig": {
+    "data": {
+      "datasets": [
+        {
+          "backgroundColor": "#1F77B4",
+          "borderColor": "rgb(31,119,180)",
+          "data": [
+            {
+              "x": "19",
+              "y": 11,
+            },
+            {
+              "x": "18",
+              "y": 12,
+            },
+            {
+              "x": "17",
+              "y": 13,
+            },
+          ],
+          "fill": false,
+          "label": "10",
+          "pointBackgroundColor": "rgb(31,119,180)",
+          "tension": 0,
+        },
+      ],
+      "labels": [
+        "19",
+        "18",
+        "17",
+      ],
+    },
+    "options": {
+      "animation": false,
+      "elements": {
+        "line": {
+          "fill": false,
+        },
+        "point": {
+          "hitRadius": 15,
+        },
+      },
+      "layout": {
+        "padding": {
+          "bottom": 10,
+          "left": 20,
+          "right": 20,
+          "top": 10,
+        },
+      },
+      "maintainAspectRatio": false,
+      "plugins": {
+        "chartShowValuesPlugin": {
+          "background": "#010101",
+          "callback": [Function],
+          "showValues": undefined,
+        },
+        "legend": {
+          "labels": {
+            "color": "#FFFFFF",
+            "generateLabels": [Function],
+          },
+          "onClick": [Function],
+          "position": "top",
+        },
+        "title": {
+          "align": "start",
+          "color": "#FFFFFF",
+          "display": true,
+          "font": {
+            "size": 22,
+            "style": "normal",
+            "weight": "normal",
+          },
+          "text": "test",
+        },
+        "tooltip": {
+          "callbacks": {
+            "label": [Function],
+            "title": [Function],
+          },
+        },
+      },
+      "responsive": true,
+      "scales": {
+        "x": {
+          "ticks": {
+            "callback": [Function],
+            "color": "#FFFFFF",
+            "padding": 5,
+          },
+          "title": undefined,
+          "type": "linear",
+        },
+        "y": {
+          "beginAtZero": true,
+          "position": "left",
+          "ticks": {
+            "callback": [Function],
+            "color": "#FFFFFF",
+          },
+          "title": undefined,
+        },
+      },
+    },
+    "platform": undefined,
+    "plugins": [],
+    "type": "line",
+  },
+  "dataSetFormat": undefined,
+  "dataSetsValues": [
+    {
+      "data": [
+        11,
+        12,
+        13,
+      ],
+      "label": "10",
+    },
+  ],
+  "labelFormat": undefined,
+  "labelValues": {
+    "formattedValues": [
+      "20",
+      "19",
+      "18",
+      "17",
+    ],
+    "values": [
+      "19",
+      "18",
+      "17",
+    ],
+  },
+}
+`;
+
+exports[`Linear/Time charts snapshot test of chartJS configuration for date chart 1`] = `
+{
+  "background": "#FFFFFF",
+  "chartJsConfig": {
+    "data": {
+      "datasets": [
+        {
+          "backgroundColor": "#1F77B4",
+          "borderColor": "rgb(31,119,180)",
+          "data": [
+            {
+              "x": "1/19/1900",
+              "y": 10,
+            },
+            {
+              "x": "1/18/1900",
+              "y": 11,
+            },
+            {
+              "x": "1/17/1900",
+              "y": 12,
+            },
+            {
+              "x": "1/16/1900",
+              "y": 13,
+            },
+          ],
+          "fill": false,
+          "label": "Series 1",
+          "pointBackgroundColor": "rgb(31,119,180)",
+          "tension": 0,
+        },
+      ],
+      "labels": [
+        "1/19/1900",
+        "1/18/1900",
+        "1/17/1900",
+        "1/16/1900",
+      ],
+    },
+    "options": {
+      "animation": false,
+      "elements": {
+        "line": {
+          "fill": false,
+        },
+        "point": {
+          "hitRadius": 15,
+        },
+      },
+      "layout": {
+        "padding": {
+          "bottom": 10,
+          "left": 20,
+          "right": 20,
+          "top": 10,
+        },
+      },
+      "maintainAspectRatio": false,
+      "plugins": {
+        "chartShowValuesPlugin": {
+          "background": undefined,
+          "callback": [Function],
+          "showValues": undefined,
+        },
+        "legend": {
+          "labels": {
+            "color": "#000000",
+            "generateLabels": [Function],
+          },
+          "onClick": [Function],
+          "position": "top",
+        },
+        "title": {
+          "align": "start",
+          "color": "#000000",
+          "display": true,
+          "font": {
+            "size": 22,
+            "style": "normal",
+            "weight": "normal",
+          },
+          "text": "test",
+        },
+        "tooltip": {
+          "callbacks": {
+            "label": [Function],
+          },
+        },
+      },
+      "responsive": true,
+      "scales": {
+        "x": {
+          "ticks": {
+            "color": "#000000",
+            "maxTicksLimit": 15,
+            "padding": 5,
+          },
+          "time": {
+            "displayFormats": {
+              "day": "M/d/yyyy",
+            },
+            "parser": "M/d/yyyy",
+            "unit": "day",
+          },
+          "title": undefined,
+          "type": "time",
+        },
+        "y": {
+          "beginAtZero": true,
+          "position": "left",
+          "ticks": {
+            "callback": [Function],
+            "color": "#000000",
+          },
+          "title": undefined,
+        },
+      },
+    },
+    "platform": undefined,
+    "plugins": [],
+    "type": "line",
+  },
+  "dataSetFormat": undefined,
+  "dataSetsValues": [
+    {
+      "data": [
+        10,
+        11,
+        12,
+        13,
+      ],
+      "label": "Series 1",
+    },
+  ],
+  "labelFormat": "m/d/yyyy",
+  "labelValues": {
+    "formattedValues": [
+      "1/19/1900",
+      "1/18/1900",
+      "1/17/1900",
+      "1/16/1900",
+    ],
+    "values": [
+      "20",
+      "19",
+      "18",
+      "17",
+    ],
+  },
+}
+`;
+
+exports[`Linear/Time charts snapshot test of chartJS configuration for linear chart 1`] = `
+{
+  "background": "#FFFFFF",
+  "chartJsConfig": {
+    "data": {
+      "datasets": [
+        {
+          "backgroundColor": "#1F77B4",
+          "borderColor": "rgb(31,119,180)",
+          "data": [
+            {
+              "x": "20",
+              "y": 10,
+            },
+            {
+              "x": "19",
+              "y": 11,
+            },
+            {
+              "x": "18",
+              "y": 12,
+            },
+            {
+              "x": "17",
+              "y": 13,
+            },
+          ],
+          "fill": false,
+          "label": "Series 1",
+          "pointBackgroundColor": "rgb(31,119,180)",
+          "tension": 0,
+        },
+      ],
+      "labels": [
+        "20",
+        "19",
+        "18",
+        "17",
+      ],
+    },
+    "options": {
+      "animation": false,
+      "elements": {
+        "line": {
+          "fill": false,
+        },
+        "point": {
+          "hitRadius": 15,
+        },
+      },
+      "layout": {
+        "padding": {
+          "bottom": 10,
+          "left": 20,
+          "right": 20,
+          "top": 10,
+        },
+      },
+      "maintainAspectRatio": false,
+      "plugins": {
+        "chartShowValuesPlugin": {
+          "background": undefined,
+          "callback": [Function],
+          "showValues": undefined,
+        },
+        "legend": {
+          "labels": {
+            "color": "#000000",
+            "generateLabels": [Function],
+          },
+          "onClick": [Function],
+          "position": "top",
+        },
+        "title": {
+          "align": "start",
+          "color": "#000000",
+          "display": true,
+          "font": {
+            "size": 22,
+            "style": "normal",
+            "weight": "normal",
+          },
+          "text": "test",
+        },
+        "tooltip": {
+          "callbacks": {
+            "label": [Function],
+            "title": [Function],
+          },
+        },
+      },
+      "responsive": true,
+      "scales": {
+        "x": {
+          "ticks": {
+            "callback": [Function],
+            "color": "#000000",
+            "padding": 5,
+          },
+          "title": undefined,
+          "type": "linear",
+        },
+        "y": {
+          "beginAtZero": true,
+          "position": "left",
+          "ticks": {
+            "callback": [Function],
+            "color": "#000000",
+          },
+          "title": undefined,
+        },
+      },
+    },
+    "platform": undefined,
+    "plugins": [],
+    "type": "line",
+  },
+  "dataSetFormat": undefined,
+  "dataSetsValues": [
+    {
+      "data": [
+        10,
+        11,
+        12,
+        13,
+      ],
+      "label": "Series 1",
+    },
+  ],
+  "labelFormat": undefined,
+  "labelValues": {
+    "formattedValues": [
+      "20",
+      "19",
+      "18",
+      "17",
+    ],
+    "values": [
+      "20",
+      "19",
+      "18",
+      "17",
+    ],
+  },
+}
+`;
+
+exports[`datasource tests create a chart with stacked bar 1`] = `
+{
+  "background": "#FFFFFF",
+  "chartJsConfig": {
+    "data": {
+      "datasets": [
+        {
+          "backgroundColor": "rgb(31,119,180)",
+          "borderColor": "rgb(31,119,180)",
+          "data": [
+            30,
+          ],
+          "label": "P4",
+        },
+      ],
+      "labels": [
+        "P4",
+      ],
+    },
+    "options": {
+      "animation": false,
+      "elements": {
+        "line": {
+          "fill": false,
+        },
+        "point": {
+          "hitRadius": 15,
+        },
+      },
+      "indexAxis": "x",
+      "layout": {
+        "padding": {
+          "bottom": 10,
+          "left": 20,
+          "right": 20,
+          "top": 10,
+        },
+      },
+      "maintainAspectRatio": false,
+      "plugins": {
+        "chartShowValuesPlugin": {
+          "background": undefined,
+          "callback": [Function],
+          "horizontal": undefined,
+          "showValues": undefined,
+        },
+        "legend": {
+          "labels": {
+            "color": "#000000",
+          },
+          "onClick": [Function],
+          "position": "top",
+        },
+        "title": {
+          "align": "start",
+          "color": "#000000",
+          "display": true,
+          "font": {
+            "size": 22,
+            "style": "normal",
+            "weight": "normal",
+          },
+          "text": "test",
+        },
+        "tooltip": {
+          "callbacks": {
+            "label": [Function],
+          },
+        },
+      },
+      "responsive": true,
+      "scales": {
+        "x": {
+          "stacked": true,
+          "ticks": {
+            "color": "#000000",
+            "padding": 5,
+          },
+          "title": undefined,
+        },
+        "y": {
+          "beginAtZero": true,
+          "position": "left",
+          "stacked": true,
+          "ticks": {
+            "callback": [Function],
+            "color": "#000000",
+          },
+          "title": undefined,
+        },
+      },
+    },
+    "platform": undefined,
+    "plugins": [],
+    "type": "bar",
+  },
+}
+`;
+
+exports[`datasource tests create chart with a dataset of one cell (no title) 1`] = `
+{
+  "background": "#FFFFFF",
+  "chartJsConfig": {
+    "data": {
+      "datasets": [
+        {
+          "backgroundColor": "#1F77B4",
+          "borderColor": "rgb(31,119,180)",
+          "data": [
+            30,
+          ],
+          "fill": false,
+          "label": "Series 1",
+          "pointBackgroundColor": "rgb(31,119,180)",
+          "tension": 0,
+        },
+      ],
+      "labels": [
+        "P4",
+      ],
+    },
+    "options": {
+      "animation": false,
+      "elements": {
+        "line": {
+          "fill": false,
+        },
+        "point": {
+          "hitRadius": 15,
+        },
+      },
+      "layout": {
+        "padding": {
+          "bottom": 10,
+          "left": 20,
+          "right": 20,
+          "top": 10,
+        },
+      },
+      "maintainAspectRatio": false,
+      "plugins": {
+        "chartShowValuesPlugin": {
+          "background": undefined,
+          "callback": [Function],
+          "showValues": undefined,
+        },
+        "legend": {
+          "labels": {
+            "color": "#000000",
+            "generateLabels": [Function],
+          },
+          "onClick": [Function],
+          "position": "top",
+        },
+        "title": {
+          "align": "start",
+          "color": "#000000",
+          "display": true,
+          "font": {
+            "size": 22,
+            "style": "normal",
+            "weight": "normal",
+          },
+          "text": "test",
+        },
+        "tooltip": {
+          "callbacks": {
+            "label": [Function],
+          },
+        },
+      },
+      "responsive": true,
+      "scales": {
+        "x": {
+          "ticks": {
+            "color": "#000000",
+            "padding": 5,
+          },
+          "title": undefined,
+        },
+        "y": {
+          "beginAtZero": true,
+          "position": "left",
+          "ticks": {
+            "callback": [Function],
+            "color": "#000000",
+          },
+          "title": undefined,
+        },
+      },
+    },
+    "platform": undefined,
+    "plugins": [],
+    "type": "line",
+  },
+  "dataSetFormat": undefined,
+  "dataSetsValues": [
+    {
+      "data": [
+        30,
+      ],
+      "label": "Series 1",
+    },
+  ],
+  "labelFormat": undefined,
+  "labelValues": {
+    "formattedValues": [
+      "P4",
+    ],
+    "values": [
+      "P4",
+    ],
+  },
+}
+`;
+
+exports[`datasource tests create chart with column datasets 1`] = `
+{
+  "background": "#FFFFFF",
+  "chartJsConfig": {
+    "data": {
+      "datasets": [
+        {
+          "backgroundColor": "#1F77B4",
+          "borderColor": "rgb(31,119,180)",
+          "data": [
+            10,
+            11,
+            12,
+          ],
+          "fill": false,
+          "label": "first column dataset",
+          "pointBackgroundColor": "rgb(31,119,180)",
+          "tension": 0,
+        },
+        {
+          "backgroundColor": "#FF7F0E",
+          "borderColor": "rgb(255,127,14)",
+          "data": [
+            20,
+            19,
+            18,
+          ],
+          "fill": false,
+          "label": "second column datase…",
+          "pointBackgroundColor": "rgb(255,127,14)",
+          "tension": 0,
+        },
+      ],
+      "labels": [
+        "P1",
+        "P2",
+        "P3",
+      ],
+    },
+    "options": {
+      "animation": false,
+      "elements": {
+        "line": {
+          "fill": false,
+        },
+        "point": {
+          "hitRadius": 15,
+        },
+      },
+      "layout": {
+        "padding": {
+          "bottom": 10,
+          "left": 20,
+          "right": 20,
+          "top": 10,
+        },
+      },
+      "maintainAspectRatio": false,
+      "plugins": {
+        "chartShowValuesPlugin": {
+          "background": undefined,
+          "callback": [Function],
+          "showValues": undefined,
+        },
+        "legend": {
+          "labels": {
+            "color": "#000000",
+            "generateLabels": [Function],
+          },
+          "onClick": [Function],
+          "position": "top",
+        },
+        "title": {
+          "align": "start",
+          "color": "#000000",
+          "display": true,
+          "font": {
+            "size": 22,
+            "style": "normal",
+            "weight": "normal",
+          },
+          "text": "test",
+        },
+        "tooltip": {
+          "callbacks": {
+            "label": [Function],
+          },
+        },
+      },
+      "responsive": true,
+      "scales": {
+        "x": {
+          "ticks": {
+            "color": "#000000",
+            "padding": 5,
+          },
+          "title": undefined,
+        },
+        "y": {
+          "beginAtZero": true,
+          "position": "left",
+          "ticks": {
+            "callback": [Function],
+            "color": "#000000",
+          },
+          "title": undefined,
+        },
+      },
+    },
+    "platform": undefined,
+    "plugins": [],
+    "type": "line",
+  },
+  "dataSetFormat": undefined,
+  "dataSetsValues": [
+    {
+      "data": [
+        10,
+        11,
+        12,
+      ],
+      "label": "first column dataset",
+    },
+    {
+      "data": [
+        20,
+        19,
+        18,
+      ],
+      "label": "second column datase…",
+    },
+  ],
+  "labelFormat": undefined,
+  "labelValues": {
+    "formattedValues": [
+      "P1",
+      "P2",
+      "P3",
+    ],
+    "values": [
+      "P1",
+      "P2",
+      "P3",
+    ],
+  },
+}
+`;
+
+exports[`datasource tests create chart with column datasets with category title 1`] = `
+{
+  "background": "#FFFFFF",
+  "chartJsConfig": {
+    "data": {
+      "datasets": [
+        {
+          "backgroundColor": "#1F77B4",
+          "borderColor": "rgb(31,119,180)",
+          "data": [
+            10,
+            11,
+            12,
+          ],
+          "fill": false,
+          "label": "first column dataset",
+          "pointBackgroundColor": "rgb(31,119,180)",
+          "tension": 0,
+        },
+        {
+          "backgroundColor": "#FF7F0E",
+          "borderColor": "rgb(255,127,14)",
+          "data": [
+            20,
+            19,
+            18,
+          ],
+          "fill": false,
+          "label": "second column datase…",
+          "pointBackgroundColor": "rgb(255,127,14)",
+          "tension": 0,
+        },
+      ],
+      "labels": [
+        "P1",
+        "P2",
+        "P3",
+      ],
+    },
+    "options": {
+      "animation": false,
+      "elements": {
+        "line": {
+          "fill": false,
+        },
+        "point": {
+          "hitRadius": 15,
+        },
+      },
+      "layout": {
+        "padding": {
+          "bottom": 10,
+          "left": 20,
+          "right": 20,
+          "top": 10,
+        },
+      },
+      "maintainAspectRatio": false,
+      "plugins": {
+        "chartShowValuesPlugin": {
+          "background": undefined,
+          "callback": [Function],
+          "showValues": undefined,
+        },
+        "legend": {
+          "labels": {
+            "color": "#000000",
+            "generateLabels": [Function],
+          },
+          "onClick": [Function],
+          "position": "top",
+        },
+        "title": {
+          "align": "start",
+          "color": "#000000",
+          "display": true,
+          "font": {
+            "size": 22,
+            "style": "normal",
+            "weight": "normal",
+          },
+          "text": "test",
+        },
+        "tooltip": {
+          "callbacks": {
+            "label": [Function],
+          },
+        },
+      },
+      "responsive": true,
+      "scales": {
+        "x": {
+          "ticks": {
+            "color": "#000000",
+            "padding": 5,
+          },
+          "title": undefined,
+        },
+        "y": {
+          "beginAtZero": true,
+          "position": "left",
+          "ticks": {
+            "callback": [Function],
+            "color": "#000000",
+          },
+          "title": undefined,
+        },
+      },
+    },
+    "platform": undefined,
+    "plugins": [],
+    "type": "line",
+  },
+  "dataSetFormat": undefined,
+  "dataSetsValues": [
+    {
+      "data": [
+        10,
+        11,
+        12,
+      ],
+      "label": "first column dataset",
+    },
+    {
+      "data": [
+        20,
+        19,
+        18,
+      ],
+      "label": "second column datase…",
+    },
+  ],
+  "labelFormat": undefined,
+  "labelValues": {
+    "formattedValues": [
+      "P1",
+      "P2",
+      "P3",
+    ],
+    "values": [
+      "",
+      "P1",
+      "P2",
+      "P3",
+    ],
+  },
+}
+`;
+
+exports[`datasource tests create chart with column datasets without series title 1`] = `
+{
+  "background": "#FFFFFF",
+  "chartJsConfig": {
+    "data": {
+      "datasets": [
+        {
+          "backgroundColor": "#1F77B4",
+          "borderColor": "rgb(31,119,180)",
+          "data": [
+            10,
+            11,
+            12,
+          ],
+          "fill": false,
+          "label": "Series 1",
+          "pointBackgroundColor": "rgb(31,119,180)",
+          "tension": 0,
+        },
+        {
+          "backgroundColor": "#FF7F0E",
+          "borderColor": "rgb(255,127,14)",
+          "data": [
+            20,
+            19,
+            18,
+          ],
+          "fill": false,
+          "label": "Series 2",
+          "pointBackgroundColor": "rgb(255,127,14)",
+          "tension": 0,
+        },
+      ],
+      "labels": [
+        "P1",
+        "P2",
+        "P3",
+      ],
+    },
+    "options": {
+      "animation": false,
+      "elements": {
+        "line": {
+          "fill": false,
+        },
+        "point": {
+          "hitRadius": 15,
+        },
+      },
+      "layout": {
+        "padding": {
+          "bottom": 10,
+          "left": 20,
+          "right": 20,
+          "top": 10,
+        },
+      },
+      "maintainAspectRatio": false,
+      "plugins": {
+        "chartShowValuesPlugin": {
+          "background": undefined,
+          "callback": [Function],
+          "showValues": undefined,
+        },
+        "legend": {
+          "labels": {
+            "color": "#000000",
+            "generateLabels": [Function],
+          },
+          "onClick": [Function],
+          "position": "top",
+        },
+        "title": {
+          "align": "start",
+          "color": "#000000",
+          "display": true,
+          "font": {
+            "size": 22,
+            "style": "normal",
+            "weight": "normal",
+          },
+          "text": "test",
+        },
+        "tooltip": {
+          "callbacks": {
+            "label": [Function],
+          },
+        },
+      },
+      "responsive": true,
+      "scales": {
+        "x": {
+          "ticks": {
+            "color": "#000000",
+            "padding": 5,
+          },
+          "title": undefined,
+        },
+        "y": {
+          "beginAtZero": true,
+          "position": "left",
+          "ticks": {
+            "callback": [Function],
+            "color": "#000000",
+          },
+          "title": undefined,
+        },
+      },
+    },
+    "platform": undefined,
+    "plugins": [],
+    "type": "line",
+  },
+  "dataSetFormat": undefined,
+  "dataSetsValues": [
+    {
+      "data": [
+        10,
+        11,
+        12,
+      ],
+      "label": "Series 1",
+    },
+    {
+      "data": [
+        20,
+        19,
+        18,
+      ],
+      "label": "Series 2",
+    },
+  ],
+  "labelFormat": undefined,
+  "labelValues": {
+    "formattedValues": [
+      "P1",
+      "P2",
+      "P3",
+    ],
+    "values": [
+      "P1",
+      "P2",
+      "P3",
+    ],
+  },
+}
+`;
+
+exports[`datasource tests create chart with only the dataset title (no data) 1`] = `
+{
+  "background": "#FFFFFF",
+  "chartJsConfig": {
+    "data": {
+      "datasets": [
+        {
+          "backgroundColor": "#1F77B4",
+          "borderColor": "rgb(31,119,180)",
+          "data": [
+            undefined,
+            undefined,
+          ],
+          "fill": false,
+          "label": "30",
+          "pointBackgroundColor": "rgb(31,119,180)",
+          "tension": 0,
+        },
+      ],
+      "labels": [
+        "P5",
+        "P6",
+      ],
+    },
+    "options": {
+      "animation": false,
+      "elements": {
+        "line": {
+          "fill": false,
+        },
+        "point": {
+          "hitRadius": 15,
+        },
+      },
+      "layout": {
+        "padding": {
+          "bottom": 10,
+          "left": 20,
+          "right": 20,
+          "top": 10,
+        },
+      },
+      "maintainAspectRatio": false,
+      "plugins": {
+        "chartShowValuesPlugin": {
+          "background": undefined,
+          "callback": [Function],
+          "showValues": undefined,
+        },
+        "legend": {
+          "labels": {
+            "color": "#000000",
+            "generateLabels": [Function],
+          },
+          "onClick": [Function],
+          "position": "top",
+        },
+        "title": {
+          "align": "start",
+          "color": "#000000",
+          "display": true,
+          "font": {
+            "size": 22,
+            "style": "normal",
+            "weight": "normal",
+          },
+          "text": "test",
+        },
+        "tooltip": {
+          "callbacks": {
+            "label": [Function],
+          },
+        },
+      },
+      "responsive": true,
+      "scales": {
+        "x": {
+          "ticks": {
+            "color": "#000000",
+            "padding": 5,
+          },
+          "title": undefined,
+        },
+        "y": {
+          "beginAtZero": true,
+          "position": "left",
+          "ticks": {
+            "callback": [Function],
+            "color": "#000000",
+          },
+          "title": undefined,
+        },
+      },
+    },
+    "platform": undefined,
+    "plugins": [],
+    "type": "line",
+  },
+  "dataSetFormat": undefined,
+  "dataSetsValues": [
+    {
+      "data": [
+        undefined,
+        undefined,
+      ],
+      "label": "30",
+    },
+  ],
+  "labelFormat": undefined,
+  "labelValues": {
+    "formattedValues": [
+      "P5",
+      "P6",
+    ],
+    "values": [
+      "P4",
+      "P5",
+      "P6",
+    ],
+  },
+}
+`;
+
+exports[`datasource tests create chart with rectangle dataset 1`] = `
+{
+  "background": "#FFFFFF",
+  "chartJsConfig": {
+    "data": {
+      "datasets": [
+        {
+          "backgroundColor": "#1F77B4",
+          "borderColor": "rgb(31,119,180)",
+          "data": [
+            10,
+            11,
+            12,
+          ],
+          "fill": false,
+          "label": "first column dataset",
+          "pointBackgroundColor": "rgb(31,119,180)",
+          "tension": 0,
+        },
+        {
+          "backgroundColor": "#FF7F0E",
+          "borderColor": "rgb(255,127,14)",
+          "data": [
+            20,
+            19,
+            18,
+          ],
+          "fill": false,
+          "label": "second column datase…",
+          "pointBackgroundColor": "rgb(255,127,14)",
+          "tension": 0,
+        },
+      ],
+      "labels": [
+        "P1",
+        "P2",
+        "P3",
+      ],
+    },
+    "options": {
+      "animation": false,
+      "elements": {
+        "line": {
+          "fill": false,
+        },
+        "point": {
+          "hitRadius": 15,
+        },
+      },
+      "layout": {
+        "padding": {
+          "bottom": 10,
+          "left": 20,
+          "right": 20,
+          "top": 10,
+        },
+      },
+      "maintainAspectRatio": false,
+      "plugins": {
+        "chartShowValuesPlugin": {
+          "background": undefined,
+          "callback": [Function],
+          "showValues": undefined,
+        },
+        "legend": {
+          "labels": {
+            "color": "#000000",
+            "generateLabels": [Function],
+          },
+          "onClick": [Function],
+          "position": "top",
+        },
+        "title": {
+          "align": "start",
+          "color": "#000000",
+          "display": true,
+          "font": {
+            "size": 22,
+            "style": "normal",
+            "weight": "normal",
+          },
+          "text": "test",
+        },
+        "tooltip": {
+          "callbacks": {
+            "label": [Function],
+          },
+        },
+      },
+      "responsive": true,
+      "scales": {
+        "x": {
+          "ticks": {
+            "color": "#000000",
+            "padding": 5,
+          },
+          "title": undefined,
+        },
+        "y": {
+          "beginAtZero": true,
+          "position": "left",
+          "ticks": {
+            "callback": [Function],
+            "color": "#000000",
+          },
+          "title": undefined,
+        },
+      },
+    },
+    "platform": undefined,
+    "plugins": [],
+    "type": "line",
+  },
+  "dataSetFormat": undefined,
+  "dataSetsValues": [
+    {
+      "data": [
+        10,
+        11,
+        12,
+      ],
+      "label": "first column dataset",
+    },
+    {
+      "data": [
+        20,
+        19,
+        18,
+      ],
+      "label": "second column datase…",
+    },
+  ],
+  "labelFormat": undefined,
+  "labelValues": {
+    "formattedValues": [
+      "P1",
+      "P2",
+      "P3",
+    ],
+    "values": [
+      "P1",
+      "P2",
+      "P3",
+    ],
+  },
+}
+`;
+
+exports[`datasource tests create chart with row datasets 1`] = `
+{
+  "background": "#FFFFFF",
+  "chartJsConfig": {
+    "data": {
+      "datasets": [
+        {
+          "backgroundColor": "#1F77B4",
+          "borderColor": "rgb(31,119,180)",
+          "data": [
+            30,
+            31,
+            32,
+          ],
+          "fill": false,
+          "label": "first row dataset",
+          "pointBackgroundColor": "rgb(31,119,180)",
+          "tension": 0,
+        },
+        {
+          "backgroundColor": "#FF7F0E",
+          "borderColor": "rgb(255,127,14)",
+          "data": [
+            40,
+            41,
+            42,
+          ],
+          "fill": false,
+          "label": "second row dataset",
+          "pointBackgroundColor": "rgb(255,127,14)",
+          "tension": 0,
+        },
+      ],
+      "labels": [
+        "P4",
+        "P5",
+        "P6",
+      ],
+    },
+    "options": {
+      "animation": false,
+      "elements": {
+        "line": {
+          "fill": false,
+        },
+        "point": {
+          "hitRadius": 15,
+        },
+      },
+      "layout": {
+        "padding": {
+          "bottom": 10,
+          "left": 20,
+          "right": 20,
+          "top": 10,
+        },
+      },
+      "maintainAspectRatio": false,
+      "plugins": {
+        "chartShowValuesPlugin": {
+          "background": undefined,
+          "callback": [Function],
+          "showValues": undefined,
+        },
+        "legend": {
+          "labels": {
+            "color": "#000000",
+            "generateLabels": [Function],
+          },
+          "onClick": [Function],
+          "position": "top",
+        },
+        "title": {
+          "align": "start",
+          "color": "#000000",
+          "display": true,
+          "font": {
+            "size": 22,
+            "style": "normal",
+            "weight": "normal",
+          },
+          "text": "test",
+        },
+        "tooltip": {
+          "callbacks": {
+            "label": [Function],
+          },
+        },
+      },
+      "responsive": true,
+      "scales": {
+        "x": {
+          "ticks": {
+            "color": "#000000",
+            "padding": 5,
+          },
+          "title": undefined,
+        },
+        "y": {
+          "beginAtZero": true,
+          "position": "left",
+          "ticks": {
+            "callback": [Function],
+            "color": "#000000",
+          },
+          "title": undefined,
+        },
+      },
+    },
+    "platform": undefined,
+    "plugins": [],
+    "type": "line",
+  },
+  "dataSetFormat": undefined,
+  "dataSetsValues": [
+    {
+      "data": [
+        30,
+        31,
+        32,
+      ],
+      "label": "first row dataset",
+    },
+    {
+      "data": [
+        40,
+        41,
+        42,
+      ],
+      "label": "second row dataset",
+    },
+  ],
+  "labelFormat": undefined,
+  "labelValues": {
+    "formattedValues": [
+      "P4",
+      "P5",
+      "P6",
+    ],
+    "values": [
+      "P4",
+      "P5",
+      "P6",
+    ],
+  },
+}
+`;
+
+exports[`datasource tests create chart with row datasets with category title 1`] = `
+{
+  "background": "#FFFFFF",
+  "chartJsConfig": {
+    "data": {
+      "datasets": [
+        {
+          "backgroundColor": "#1F77B4",
+          "borderColor": "rgb(31,119,180)",
+          "data": [
+            30,
+            31,
+            32,
+          ],
+          "fill": false,
+          "label": "first row dataset",
+          "pointBackgroundColor": "rgb(31,119,180)",
+          "tension": 0,
+        },
+        {
+          "backgroundColor": "#FF7F0E",
+          "borderColor": "rgb(255,127,14)",
+          "data": [
+            40,
+            41,
+            42,
+          ],
+          "fill": false,
+          "label": "second row dataset",
+          "pointBackgroundColor": "rgb(255,127,14)",
+          "tension": 0,
+        },
+      ],
+      "labels": [
+        "P4",
+        "P5",
+        "P6",
+      ],
+    },
+    "options": {
+      "animation": false,
+      "elements": {
+        "line": {
+          "fill": false,
+        },
+        "point": {
+          "hitRadius": 15,
+        },
+      },
+      "layout": {
+        "padding": {
+          "bottom": 10,
+          "left": 20,
+          "right": 20,
+          "top": 10,
+        },
+      },
+      "maintainAspectRatio": false,
+      "plugins": {
+        "chartShowValuesPlugin": {
+          "background": undefined,
+          "callback": [Function],
+          "showValues": undefined,
+        },
+        "legend": {
+          "labels": {
+            "color": "#000000",
+            "generateLabels": [Function],
+          },
+          "onClick": [Function],
+          "position": "top",
+        },
+        "title": {
+          "align": "start",
+          "color": "#000000",
+          "display": true,
+          "font": {
+            "size": 22,
+            "style": "normal",
+            "weight": "normal",
+          },
+          "text": "test",
+        },
+        "tooltip": {
+          "callbacks": {
+            "label": [Function],
+          },
+        },
+      },
+      "responsive": true,
+      "scales": {
+        "x": {
+          "ticks": {
+            "color": "#000000",
+            "padding": 5,
+          },
+          "title": undefined,
+        },
+        "y": {
+          "beginAtZero": true,
+          "position": "left",
+          "ticks": {
+            "callback": [Function],
+            "color": "#000000",
+          },
+          "title": undefined,
+        },
+      },
+    },
+    "platform": undefined,
+    "plugins": [],
+    "type": "line",
+  },
+  "dataSetFormat": undefined,
+  "dataSetsValues": [
+    {
+      "data": [
+        30,
+        31,
+        32,
+      ],
+      "label": "first row dataset",
+    },
+    {
+      "data": [
+        40,
+        41,
+        42,
+      ],
+      "label": "second row dataset",
+    },
+  ],
+  "labelFormat": undefined,
+  "labelValues": {
+    "formattedValues": [
+      "P4",
+      "P5",
+      "P6",
+    ],
+    "values": [
+      "",
+      "P4",
+      "P5",
+      "P6",
+    ],
+  },
+}
+`;
+
+exports[`datasource tests create chart with row datasets without series title 1`] = `
+{
+  "background": "#FFFFFF",
+  "chartJsConfig": {
+    "data": {
+      "datasets": [
+        {
+          "backgroundColor": "#1F77B4",
+          "borderColor": "rgb(31,119,180)",
+          "data": [
+            30,
+            31,
+            32,
+          ],
+          "fill": false,
+          "label": "Series 1",
+          "pointBackgroundColor": "rgb(31,119,180)",
+          "tension": 0,
+        },
+        {
+          "backgroundColor": "#FF7F0E",
+          "borderColor": "rgb(255,127,14)",
+          "data": [
+            40,
+            41,
+            42,
+          ],
+          "fill": false,
+          "label": "Series 2",
+          "pointBackgroundColor": "rgb(255,127,14)",
+          "tension": 0,
+        },
+      ],
+      "labels": [
+        "P4",
+        "P5",
+        "P6",
+      ],
+    },
+    "options": {
+      "animation": false,
+      "elements": {
+        "line": {
+          "fill": false,
+        },
+        "point": {
+          "hitRadius": 15,
+        },
+      },
+      "layout": {
+        "padding": {
+          "bottom": 10,
+          "left": 20,
+          "right": 20,
+          "top": 10,
+        },
+      },
+      "maintainAspectRatio": false,
+      "plugins": {
+        "chartShowValuesPlugin": {
+          "background": undefined,
+          "callback": [Function],
+          "showValues": undefined,
+        },
+        "legend": {
+          "labels": {
+            "color": "#000000",
+            "generateLabels": [Function],
+          },
+          "onClick": [Function],
+          "position": "top",
+        },
+        "title": {
+          "align": "start",
+          "color": "#000000",
+          "display": true,
+          "font": {
+            "size": 22,
+            "style": "normal",
+            "weight": "normal",
+          },
+          "text": "test",
+        },
+        "tooltip": {
+          "callbacks": {
+            "label": [Function],
+          },
+        },
+      },
+      "responsive": true,
+      "scales": {
+        "x": {
+          "ticks": {
+            "color": "#000000",
+            "padding": 5,
+          },
+          "title": undefined,
+        },
+        "y": {
+          "beginAtZero": true,
+          "position": "left",
+          "ticks": {
+            "callback": [Function],
+            "color": "#000000",
+          },
+          "title": undefined,
+        },
+      },
+    },
+    "platform": undefined,
+    "plugins": [],
+    "type": "line",
+  },
+  "dataSetFormat": undefined,
+  "dataSetsValues": [
+    {
+      "data": [
+        30,
+        31,
+        32,
+      ],
+      "label": "Series 1",
+    },
+    {
+      "data": [
+        40,
+        41,
+        42,
+      ],
+      "label": "Series 2",
+    },
+  ],
+  "labelFormat": undefined,
+  "labelValues": {
+    "formattedValues": [
+      "P4",
+      "P5",
+      "P6",
+    ],
+    "values": [
+      "P4",
+      "P5",
+      "P6",
+    ],
+  },
+}
+`;

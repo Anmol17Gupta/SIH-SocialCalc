@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "preserveConstEnums": true,
+    "noImplicitThis": true,
+    "moduleResolution": "node",
+    "removeComments": false,
+    "target": "ESNext",
+    "outDir": "dist",
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strictBindCallApply": true
+  },
+  "include": ["src", "tests"],
+  "typedocOptions": {
+    "entryPoints": ["src/index.ts"],
+    "out": "doc/tsdoc",
+    "name": "o-spreadsheet API",
+    "readme": "none",
+    "excludePrivate": true,
+    "hideGenerator": true,
+    "disableSources": true,
+    "excludeExternals": true
+  },
+  "files": ["global.d.ts"]
+}

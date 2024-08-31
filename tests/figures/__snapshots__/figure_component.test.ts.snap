@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`figures selected figure snapshot 1`] = `
+<div
+  class="o-figure-wrapper pe-auto"
+  style="left:1px; top:1px; width:100px; height:100px; z-index:11; "
+>
+  <div
+    class="o-figure w-100 h-100"
+    data-id="someuuid"
+    style=""
+    tabindex="0"
+  >
+    <div
+      class="o-fig-text"
+    >
+      coucou
+    </div>
+    
+    <div
+      class="o-figure-menu position-absolute m-2"
+    >
+      <div
+        class="o-figure-menu-item"
+      >
+        <svg
+          class="o-icon"
+          viewBox="0 0 384 384"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            fill="currentColor"
+            height="42.667"
+            width="384"
+            x="0"
+            y="277.333"
+          />
+          <rect
+            fill="currentColor"
+            height="42.667"
+            width="384"
+            x="0"
+            y="170.667"
+          />
+          <rect
+            fill="currentColor"
+            height="42.667"
+            width="384"
+            x="0"
+            y="64"
+          />
+        </svg>
+      </div>
+      
+      
+    </div>
+    
+  </div>
+  <div
+    class="o-figure-border w-100 h-100 position-absolute pe-none"
+    style="border: 2px solid #3266ca;"
+  />
+  <div
+    class="o-fig-anchor o-top"
+    style="top:-3px; right:calc(50% - 3px); "
+  />
+  <div
+    class="o-fig-anchor o-topRight"
+    style="top:-3px; right:-3px; "
+  />
+  <div
+    class="o-fig-anchor o-right"
+    style="bottom:calc(50% - 3px); right:-3px; "
+  />
+  <div
+    class="o-fig-anchor o-bottomRight"
+    style="bottom:-3px; right:-3px; "
+  />
+  <div
+    class="o-fig-anchor o-bottom"
+    style="bottom:-3px; right:calc(50% - 3px); "
+  />
+  <div
+    class="o-fig-anchor o-bottomLeft"
+    style="bottom:-3px; left:-3px; "
+  />
+  <div
+    class="o-fig-anchor o-left"
+    style="bottom:calc(50% - 3px); left:-3px; "
+  />
+  <div
+    class="o-fig-anchor o-topLeft"
+    style="top:-3px; left:-3px; "
+  />
+  
+</div>
+`;

@@ -1,0 +1,21 @@
+.eslintrc.json
+.prettierignore
+COPYRIGHT
+LICENSE
+
+.husky/
+.github/
+.idea/
+.vscode/
+dist/
+build/
+.gitignore
+.npmrc
+coverage/
+logs/
+doc/tsdoc
+tests/**/__snapshots__
+tests/**/xlsx_demo_data
+# Ignore all PNG files:
+**/*.png
+**/*.xlsx

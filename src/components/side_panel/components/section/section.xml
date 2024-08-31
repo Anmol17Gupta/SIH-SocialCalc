@@ -1,0 +1,12 @@
+<templates>
+  <t t-name="o_spreadsheet.Section">
+    <div class="o-section" t-att-class="props.class">
+      <t t-if="props.slots.title">
+        <div class="o-section-title">
+          <t t-slot="title"/>
+        </div>
+      </t>
+      <t t-slot="default"/>
+    </div>
+  </t>
+</templates>

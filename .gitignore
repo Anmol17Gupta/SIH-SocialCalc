@@ -1,0 +1,16 @@
+node_modules/
+.idea/
+.vscode/
+dist/
+build/
+.npmrc
+/coverage/
+logs/
+
+debug.log
+.git.cache
+tests/__xlsx__/xlsx_demo_data/*
+# Excel temp file
+tests/__xlsx__/~$xlsx_demo_data.xlsx
+
+tools/owl_templates/_compiled/*

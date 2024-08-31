@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter menu component Filter Tests Filter menu is correctly rendered 1`] = `
+<div
+  class="o-filter-menu d-flex flex-column bg-white"
+>
+  <div>
+    <div
+      class="o-filter-menu-item"
+    >
+       Sort ascending (A ⟶ Z) 
+    </div>
+    <div
+      class="o-filter-menu-item"
+    >
+       Sort descending (Z ⟶ A) 
+    </div>
+  </div>
+  <div
+    class="o-separator"
+  />
+  
+  <div
+    class="o-filter-menu-actions"
+  >
+    <div
+      class="o-filter-menu-action-text"
+    >
+      Select all
+    </div>
+    <div
+      class="o-filter-menu-action-text"
+    >
+      Clear
+    </div>
+  </div>
+  <div
+    class="position-relative"
+  >
+    <input
+      class="w-100"
+      placeholder="Search..."
+      type="text"
+    />
+    <i
+      class="o-search-icon position-absolute"
+    >
+      <div
+        class="o-icon"
+      >
+        <i
+          class="fa fa-search"
+        />
+      </div>
+    </i>
+  </div>
+  <div
+    class="o-filter-menu-list d-flex flex-column rounded"
+  >
+    <div
+      class="o-filter-menu-item o-filter-menu-value"
+    >
+      <div>
+        <div
+          class="o-filter-menu-value-checked"
+        >
+          <span>
+            ✓
+          </span>
+        </div>
+      </div>
+      <div
+        class="o-filter-menu-value-text text-truncate"
+      >
+        (Blanks)
+        
+        
+      </div>
+    </div>
+    <div
+      class="o-filter-menu-item o-filter-menu-value"
+    >
+      <div>
+        <div
+          class="o-filter-menu-value-checked"
+        >
+          <span>
+            ✓
+          </span>
+        </div>
+      </div>
+      <div
+        class="o-filter-menu-value-text text-truncate"
+      >
+        
+        1
+        
+      </div>
+    </div>
+    <div
+      class="o-filter-menu-item o-filter-menu-value"
+    >
+      <div>
+        <div
+          class="o-filter-menu-value-checked"
+        >
+          <span>
+            ✓
+          </span>
+        </div>
+      </div>
+      <div
+        class="o-filter-menu-value-text text-truncate"
+      >
+        
+        2
+        
+      </div>
+    </div>
+    
+    
+    
+  </div>
+  <div
+    class="o-filter-menu-buttons d-flex justify-content-end"
+  >
+    <div
+      class="o-filter-menu-button o-filter-menu-button-cancel"
+    >
+       Cancel 
+    </div>
+    <div
+      class="o-filter-menu-button o-filter-menu-button-primary"
+    >
+       Confirm 
+    </div>
+  </div>
+</div>
+`;
