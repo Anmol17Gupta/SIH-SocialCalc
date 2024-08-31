@@ -1,7 +1,7 @@
 
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://saaku:saaku@cluster0.ef6ckot.mongodb.net/Sih?authMechanism=DEFAULT");
+mongoose.connect("");
 const userSchema = new mongoose.Schema({
     username: {
         type: String,
