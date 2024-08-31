@@ -91,16 +91,7 @@ class Demo extends Component {
       execute: () => this.model.updateMode("readonly"),
       icon: "o-spreadsheet-Icon.OPEN_READ_ONLY",
     });
-
-    topbarMenuRegistry.addChild("dashboard", ["file"], {
-      name: "Open in dashboard",
-      sequence: 12,
-      isReadonlyAllowed: true,
-      isVisible: () => this.model.config.mode !== "dashboard",
-      execute: () => this.model.updateMode("dashboard"),
-      icon: "o-spreadsheet-Icon.OPEN_DASHBOARD",
-    });
-
+    
     topbarMenuRegistry.addChild("read_write", ["file"], {
       name: "Open with write access",
       sequence: 13,

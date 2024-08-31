@@ -76,9 +76,7 @@ export class GridRenderer {
    */
   private getHeaderOffset(dimension: Dimension, start: HeaderIndex, index: HeaderIndex): number {
     let size = this.getters.getColRowOffsetInViewport(dimension, start, index);
-    if (!this.getters.isDashboard()) {
-      size += dimension === "ROW" ? HEADER_HEIGHT : HEADER_WIDTH;
-    }
+    size += dimension === "ROW" ? HEADER_HEIGHT : HEADER_WIDTH;
     return size;
   }
 
@@ -99,10 +97,8 @@ export class GridRenderer {
         this.drawFrozenPanes(renderingContext);
         break;
       case "Headers":
-        if (!this.getters.isDashboard()) {
-          this.drawHeaders(renderingContext);
-          this.drawFrozenPanesHeaders(renderingContext);
-        }
+        this.drawHeaders(renderingContext);
+        this.drawFrozenPanesHeaders(renderingContext);
         break;
     }
   }
@@ -116,7 +112,6 @@ export class GridRenderer {
     ctx.fillRect(0, 0, width + CANVAS_SHIFT, height + CANVAS_SHIFT);
 
     const areGridLinesVisible =
-      !this.getters.isDashboard() &&
       this.getters.getGridLinesVisibility(this.getters.getActiveSheetId());
     const inset = areGridLinesVisible ? 0.1 * thinLineWidth : 0;
 
@@ -469,8 +464,8 @@ export class GridRenderer {
 
     const { x: offsetCorrectionX, y: offsetCorrectionY } =
       this.getters.getMainViewportCoordinates();
-    const widthCorrection = this.getters.isDashboard() ? 0 : HEADER_WIDTH;
-    const heightCorrection = this.getters.isDashboard() ? 0 : HEADER_HEIGHT;
+    const widthCorrection = HEADER_WIDTH;
+    const heightCorrection = HEADER_HEIGHT;
     ctx.lineWidth = 6 * thinLineWidth;
     ctx.strokeStyle = FROZEN_PANE_HEADER_BORDER_COLOR;
     ctx.beginPath();
@@ -500,8 +495,8 @@ export class GridRenderer {
     const viewport = { left, right, top, bottom };
 
     const rect = this.getters.getVisibleRect(viewport);
-    const widthCorrection = this.getters.isDashboard() ? 0 : HEADER_WIDTH;
-    const heightCorrection = this.getters.isDashboard() ? 0 : HEADER_HEIGHT;
+    const widthCorrection = HEADER_WIDTH;
+    const heightCorrection =  HEADER_HEIGHT;
     ctx.lineWidth = 6 * thinLineWidth;
     ctx.strokeStyle = FROZEN_PANE_BORDER_COLOR;
     ctx.beginPath();

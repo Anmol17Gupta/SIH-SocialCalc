@@ -22,7 +22,6 @@ export interface InformationNotification {
 export interface SpreadsheetChildEnv extends NotificationStoreMethods {
   model: Model;
   imageProvider?: ImageProviderInterface;
-  isDashboard: () => boolean;
   openSidePanel: (panel: string, panelProps?: any) => void;
   toggleSidePanel: (panel: string, panelProps?: any) => void;
   clipboard: ClipboardInterface;

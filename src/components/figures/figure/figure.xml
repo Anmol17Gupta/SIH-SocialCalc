@@ -17,7 +17,7 @@
           onFigureDeleted="props.onFigureDeleted"
           figure="props.figure"
         />
-        <div class="o-figure-menu position-absolute m-2" t-if="!env.isDashboard()">
+        <div class="o-figure-menu position-absolute m-2" t-if="true">
           <div
             class="o-figure-menu-item"
             t-if="!env.model.getters.isReadonly()"

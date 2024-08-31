@@ -126,7 +126,7 @@ export const LinkCellPopoverBuilder: PopoverBuilders = {
   onHover: (position, getters): CellPopoverComponent<typeof LinkDisplay> => {
     const cell = getters.getEvaluatedCell(position);
     const shouldDisplayLink =
-      !getters.isDashboard() && cell.link && getters.isVisibleInViewport(position);
+      cell.link && getters.isVisibleInViewport(position);
     if (!shouldDisplayLink) return { isOpen: false };
     return {
       isOpen: true,

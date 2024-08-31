@@ -115,7 +115,6 @@ export type CoreGetters = PluginGetters<typeof SheetPlugin> &
 
 export type Getters = {
   isReadonly: () => boolean;
-  isDashboard: () => boolean;
 } & CoreGetters &
   PluginGetters<typeof AutofillPlugin> &
   PluginGetters<typeof AutomaticSumPlugin> &
