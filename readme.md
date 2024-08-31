@@ -8,8 +8,6 @@ A standalone spreadsheet for the web, easily integrable and extendable.
 
 **Try it online** with the [live demo](https://odoo.github.io/o-spreadsheet/)!
 
-![o-spreadsheet screenshot](doc/o-spreadsheet.png "o-spreadsheet demo")
-
 ## Run it!
 
 ```bash
